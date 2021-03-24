@@ -21,5 +21,33 @@ library(NbClust)
 library(factoextra)
 library(rpart)
 
-bank<- read.csv("C:/Users/Diego/Documents/Universidad/IA/Bank-IA/bank.csv", stringsAsFactors = FALSE, sep=";")
+bank<- read.csv("bank.csv", stringsAsFactors = FALSE, sep=";")
 glimpse(bank)
+head(bank)
+plot(bank$age)
+hist(bank$age)
+hist(bank$balance)
+hist(bank$duration)
+plot(bank$duration)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
